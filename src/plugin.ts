@@ -1,8 +1,8 @@
 import Vue, { PluginFunction, PluginObject } from "vue";
 import { Store } from "vuex";
 import { initializeModules } from "./store";
-import NotificationModule from "@cloud-platform/vue2-notify/src/store/notificationModule";
-import { NotificationPlugin } from "@cloud-platform/vue2-notify/src/";
+import NotificationModule from "@cloud-platform/vue2-notify-plugin/src/store/notificationModule";
+import { NotificationPlugin } from "@cloud-platform/vue2-notify-plugin/src/";
 import router from "vue-router";
 import { getModule } from "vuex-module-decorators";
 import bootstrapper from "./bootstrapper";
